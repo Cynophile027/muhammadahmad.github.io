@@ -14,7 +14,6 @@ body::-webkit-scrollbar {
 .section1{
 	height: 100vh;
 	width: 100%;
-	background-image: url('/img/main.png');
 	background-size: cover;
 	background-position: center;
 }
@@ -64,6 +63,11 @@ nav ul li a:hover{
 	border-radius: 30px;
 
 }	
+.smallsec{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: stretch;
+}
 .content{
 	position: absolute;
 	top: 50%;
@@ -85,6 +89,10 @@ h4{
 	color: #00cefc;
 	font-size: 20px;
 }
+
+
+
+
 .newslatter form{
 	width: 380px;
 	max-width: 100%;
@@ -163,7 +171,7 @@ h4{
 	font-size: 18px;
 	margin-bottom: 45px;
 }
-button{
+.button{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
